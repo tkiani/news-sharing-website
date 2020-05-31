@@ -1,0 +1,109 @@
+body{
+  background-color: white;
+}
+img{
+  width: 50%;
+  padding-left: 325px;
+}
+h1{
+  text-align: center;
+}
+.logo1{
+  width: 30%;
+  padding-left: 240px;
+}
+.container{
+  width: 1180px;
+  margin: 0 auto;
+}
+.header{
+  display: inline-inline-block;
+  float: left;
+  width: 100%;
+}
+.header .menu{
+  display: inline-block;
+  width: 100%;
+  background-color: red;
+  height: 50px;
+  line-height: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+.header .menu ul{
+  display: flex;
+}
+.header .menu ul li{
+  flex: auto;
+  text-align: center;
+}
+.header .menu ul li:hover{
+  background-color: black;
+}
+
+.header .menu ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.header .menu ul a:hover{
+  color:red;
+}
+
+
+#sidebar {
+	width:370px;
+	height:500px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 1000px;
+	background-color: black;
+  opacity: 0.6;
+	border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px 5px #000000;
+	box-shadow: 5px 5px 5px 5px #000000;}
+
+#container {
+	width:1180px;
+	height:100px;
+	padding-left:10px;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	background-color: black;}
+
+#container2 {
+	width:900px;
+	height:500px;
+	margin-left: 250px;
+	padding-left:200px;
+	padding-top:0px;
+	padding-right:10px;
+	padding-bottom:20px;
+	background-color:black;}
+
+
+  h1 {
+
+     font-size:60px;
+     text-shadow: 2px 2px;
+     font-family: 'Playball', cursive;
+     text-align: center ;
+  }
+  h2 {
+     text-align: center;
+     font-size:30px;
+     font-family: 'Playball', cursive;
+     color: white;
+  }
+  h3{
+      text-align: center;
+  }
+
+  input[name=num1]{
+    margin-left: 10px;
+    width:300px;
+    height: 100px;
+  }

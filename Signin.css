@@ -1,0 +1,92 @@
+body{
+  background-color : white;
+}
+.container{
+width: 1180px;
+margin: 0 auto;
+}
+.header{
+display: inline-inline-block;
+float: left;
+width: 100%;
+}
+.header .menu{
+display: inline-block;
+width: 100%;
+background-color: red;
+height: 50px;
+line-height: 25px;
+border-radius: 50px 50px 50px 50px;
+}
+.header .menu ul{
+display: flex;
+}
+.header .menu ul li{
+flex: auto;
+text-align: center;
+}
+.header .menu ul li:hover{
+background-color: black;
+}
+
+.header .menu ul li a{
+color: black;
+text-decoration: none;
+font-size: 20px;
+}
+.header .menu ul a:hover{
+color:red;
+}
+
+
+#container {
+  width:55%;
+  background-color:black;
+  opacity: 0.6;
+  margin-right:auto;
+  margin-left:auto;
+
+  padding-left:4px;
+  padding-right:40px;
+  padding-bottom:20px;
+  padding-top:10px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+
+
+h3{
+  text-align: center;
+}
+input[type=text]{
+
+      padding: 10px;
+      margin-right:20px;
+  padding-left:20px;
+
+
+}
+
+input[type=submit]{
+      width:350px;
+      height: 50px;
+
+
+}
+
+h1 {
+
+  font-size:60px;
+  text-shadow: 2px 2px;
+  font-family: 'Playball', cursive;
+  text-align: center ;
+
+
+}
+h2 {
+  text-align: center;
+  font-size:30px;
+  font-family: 'Playball', cursive;
+  color: white;
+
+}

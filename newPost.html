@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Post</title>
+    <link rel="stylesheet" type="text/css" href="NEWS.css" />
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Post.css" />
+
+  </head>
+
+
+  <body>
+    <div class="header">
+    <div class="logo"><img src="SEASlogo_728px.jpg">
+    <div class="logo1"><img src="download.jpeg">
+    </div>
+    </div>
+
+    <div class="menu">
+      <div class="container">
+        <ul>
+          <li><a href="found.php">DashBoard</a></li>
+          <li><a href="signout.php">Signout</a></li>
+          </ul>
+
+      </div>
+    </div>
+
+
+    <h1>Make a New Post</h1>
+
+
+    <div id="container">
+
+        <form name="new_post" action="post.php" method="POST" class = "new_post">
+        <h2>Title</h2>
+        <h2><input type="text" name="title" id="title" placeholder="Type Here" /></h2>
+        <h2>Add the link</h2>
+        <h2><input type="text" name="link" id="link" placeholder="Type Here" /></h2>
+        <h2>About the post</h2>
+        <h2><input type="text" name="body" id="body" placeholder="Type Here"/></h2>  
+        <h3><input type="submit" value="Post" /></h3>
+     </form>
+
+     </div>
+  </body>
+</html>

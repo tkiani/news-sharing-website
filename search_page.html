@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Search page</title>
+    <link rel="stylesheet" type="text/css" href="NEWS.css" />
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Post.css" />
+
+  </head>
+
+  <body>
+    <div class="header">
+    <div class="logo"><img src="SEASlogo_728px.jpg">
+    <div class="logo1"><img src="download.jpeg">
+    </div>
+    </div>
+
+    <div class="menu">
+      <div class="container">
+        <ul>
+          <li><a href="found.php">DashBoard</a></li>
+          <li><a href="signout.php">Signout</a></li>
+          </ul>
+
+      </div>
+    </div>
+
+
+    <h1>Search for posts by Users</h1>
+
+    <div id="search_container">
+<form name = "search" action="search_page.php" method="POST">
+    <h2>Enter the Username</h2>
+    <input type="text" name="search" id="search" placeholder="Enter username" />
+    <input type="submit" value = "Search">
+</form>
+
+     </div>
+  </body>
+</html>
