@@ -1,4 +1,4 @@
-# CSE330
+# CSE330 News Sharing Website
 
 A project made for CSE330-CREATIVE PROGRAMMING AND RAPID PROTYPING. Functionality:  
 
